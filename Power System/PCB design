@@ -1,0 +1,7 @@
+Specs for the power supply
+
+battery voltage: use 3.7V cells ; 14.8V maximum input
+output needed: 
+channel 1: 8V @ 2A ( motor driver: 8V minimum and 1A maximum for each driver)
+channel 2: 5V @ 2A ( microcontroller: 5.1V maximum @ 2A maximum for the pi (same for using a arduino)
+             
