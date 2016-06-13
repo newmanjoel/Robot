@@ -1,0 +1,106 @@
+Change Component DesignItemId : Designator=J4 Old DesignItemId=HEADER_accelerometer2 New DesignItemId=Header 4
+Change Component DesignItemId : Designator=J3 Old DesignItemId=HEADER_accelerometer New DesignItemId=Header 4
+Change Component DesignItemId : Designator=U1 Old DesignItemId=SW DIP-4 New DesignItemId=Translator
+Change Component DesignItemId : Designator=U2 Old DesignItemId=SW DIP-6 New DesignItemId=Mag/Accel Header
+Change Component Footprint: Designator=U1 Old Footprint=12CTRANSLATOR New Footprint=FTPNT_I2CTRANSLATOR
+Change Component Footprint: Designator=U2 Old Footprint=ACCELEROMETER New Footprint=FTPNT_MAG/ACC
+Change Component Footprint: Designator=J3 Old Footprint=HEADER 4HOLE New Footprint=HDR1X4
+Change Component Footprint: Designator=J4 Old Footprint=HEADER 4HOLE New Footprint=HDR1X4
+Change Component Comment : Designator=R1 Old Comment= New Comment=Res1
+Change Component Comment : Designator=R2 Old Comment= New Comment=Res1
+Change Component Comment : Designator=R3 Old Comment= New Comment=Res1
+Change Component Comment : Designator=R4 Old Comment= New Comment=Res1
+Change Component Comment : Designator=R5 Old Comment= New Comment=Res1
+Change Component Comment : Designator=R6 Old Comment= New Comment=Res1
+Change Component Comment : Designator=U2 Old Comment=Accelerometer New Comment=Mag/Accel
+Change Component Comment : Designator=J4 Old Comment=HEADER_accelerometer2 New Comment=Header 4
+Change Component Comment : Designator=J3 Old Comment=HEADER_accelerometer New Comment=Header 4
+Change Component Description : Designator=C1 Old Description=Capacitor New Description=CAP CER 1UF 25V 10% X7R 1206
+Change Component Description : Designator=C2 Old Description=Capacitor New Description=CAP CER 1UF 25V 10% X7R 1206
+Change Component Description : Designator=C3 Old Description=Capacitor New Description=CAP CER 1UF 25V 10% X7R 1206
+Change Component Description : Designator=C4 Old Description=Capacitor New Description=CAP CER 1UF 25V 10% X7R 1206
+Change Component Description : Designator=C5 Old Description=Capacitor New Description=CAP CER 1UF 25V 10% X7R 1206
+Change Component Description : Designator=R1 Old Description=Resistor New Description=RES 300 OHM 1/4W 1% 1206 SMD
+Change Component Description : Designator=R2 Old Description=Resistor New Description=RES 300 OHM 1/4W 1% 1206 SMD
+Change Component Description : Designator=R3 Old Description=Resistor New Description=RES 300 OHM 1/4W 1% 1206 SMD
+Change Component Description : Designator=R4 Old Description=Resistor New Description=RES 300 OHM 1/4W 1% 1206 SMD
+Change Component Description : Designator=R5 Old Description=Resistor New Description=RES 300 OHM 1/4W 1% 1206 SMD
+Change Component Description : Designator=R6 Old Description=Resistor New Description=RES 300 OHM 1/4W 1% 1206 SMD
+Change Component Library : Designator=C1 Old Library=BOT_SENSORS_PROJECT_1.SCHLIB New Library=Sensors_SchematicLib.SCHLIB
+Change Component Library : Designator=C2 Old Library=BOT_SENSORS_PROJECT_1.SCHLIB New Library=Sensors_SchematicLib.SCHLIB
+Change Component Library : Designator=C3 Old Library=BOT_SENSORS_PROJECT_1.SCHLIB New Library=Sensors_SchematicLib.SCHLIB
+Change Component Library : Designator=C4 Old Library=BOT_SENSORS_PROJECT_1.SCHLIB New Library=Sensors_SchematicLib.SCHLIB
+Change Component Library : Designator=C5 Old Library=BOT_SENSORS_PROJECT_1.SCHLIB New Library=Sensors_SchematicLib.SCHLIB
+Change Component Library : Designator=R1 Old Library=Miscellaneous Devices.IntLib New Library=Sensors_SchematicLib.SCHLIB
+Change Component Library : Designator=R2 Old Library=Miscellaneous Devices.IntLib New Library=Sensors_SchematicLib.SCHLIB
+Change Component Library : Designator=R3 Old Library=Miscellaneous Devices.IntLib New Library=Sensors_SchematicLib.SCHLIB
+Change Component Library : Designator=R4 Old Library=Miscellaneous Devices.IntLib New Library=Sensors_SchematicLib.SCHLIB
+Change Component Library : Designator=R5 Old Library=Miscellaneous Devices.IntLib New Library=Sensors_SchematicLib.SCHLIB
+Change Component Library : Designator=R6 Old Library=Miscellaneous Devices.IntLib New Library=Sensors_SchematicLib.SCHLIB
+Added Pin To Net: NetName=3.3V Pin=C1-2
+Added Pin To Net: NetName=3.3V Pin=C2-2
+Added Pin To Net: NetName=3.3V Pin=J3-1
+Added Pin To Net: NetName=3.3V Pin=R2-2
+Added Pin To Net: NetName=3.3V Pin=R3-2
+Added Pin To Net: NetName=3.3V Pin=R4-2
+Added Pin To Net: NetName=3.3V Pin=R5-2
+Added Pin To Net: NetName=3.3V Pin=R6-2
+Added Pin To Net: NetName=3.3V Pin=U1-2
+Added Pin To Net: NetName=3.3V Pin=U2-1
+Added Pin To Net: NetName=3.3V Pin=U2-14
+Added Net: Name=3.3V
+Added Pin To Net: NetName=5V Pin=J3-4
+Added Pin To Net: NetName=5V Pin=R1-2
+Added Net: Name=5V
+Added Pin To Net: NetName=DRDY Pin=J3-3
+Added Pin To Net: NetName=DRDY Pin=R4-1
+Added Pin To Net: NetName=DRDY Pin=U2-9
+Added Net: Name=DRDY
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=GND Pin=J3-2
+Added Pin To Net: NetName=GND Pin=U1-1
+Added Pin To Net: NetName=GND Pin=U2-7
+Added Pin To Net: NetName=GND Pin=U2-10
+Added Pin To Net: NetName=GND Pin=U2-11
+Added Net: Name=GND
+Added Pin To Net: NetName=INT1 Pin=J4-3
+Added Pin To Net: NetName=INT1 Pin=R6-1
+Added Pin To Net: NetName=INT1 Pin=U2-5
+Added Net: Name=INT1
+Added Pin To Net: NetName=INT2 Pin=J4-4
+Added Pin To Net: NetName=INT2 Pin=R5-1
+Added Pin To Net: NetName=INT2 Pin=U2-4
+Added Net: Name=INT2
+Added Pin To Net: NetName=NetC3_2 Pin=C3-2
+Added Pin To Net: NetName=NetC3_2 Pin=R1-1
+Added Pin To Net: NetName=NetC3_2 Pin=U1-7
+Added Pin To Net: NetName=NetC3_2 Pin=U1-8
+Added Net: Name=NetC3_2
+Added Pin To Net: NetName=NetC4_2 Pin=C4-2
+Added Pin To Net: NetName=NetC4_2 Pin=U2-6
+Added Net: Name=NetC4_2
+Added Pin To Net: NetName=NetC5_1 Pin=C5-1
+Added Pin To Net: NetName=NetC5_1 Pin=U2-12
+Added Net: Name=NetC5_1
+Added Pin To Net: NetName=NetC5_2 Pin=C5-2
+Added Pin To Net: NetName=NetC5_2 Pin=U2-13
+Added Net: Name=NetC5_2
+Added Pin To Net: NetName=SCL 5V Pin=J4-1
+Added Pin To Net: NetName=SCL 5V Pin=U1-6
+Added Net: Name=SCL 5V
+Added Pin To Net: NetName=SCL Pin=R3-1
+Added Pin To Net: NetName=SCL Pin=U1-3
+Added Pin To Net: NetName=SCL Pin=U2-2
+Added Net: Name=SCL
+Added Pin To Net: NetName=SDA 5V Pin=J4-2
+Added Pin To Net: NetName=SDA 5V Pin=U1-5
+Added Net: Name=SDA 5V
+Added Pin To Net: NetName=SDA Pin=R2-1
+Added Pin To Net: NetName=SDA Pin=U1-4
+Added Pin To Net: NetName=SDA Pin=U2-3
+Added Net: Name=SDA
+Added Class: Name=Accelerometer
+Added Room: Name=Accelerometer

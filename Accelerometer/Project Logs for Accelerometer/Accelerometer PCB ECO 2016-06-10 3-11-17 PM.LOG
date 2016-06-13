@@ -1,0 +1,3 @@
+Change Component Footprint: Designator=C2 Old Footprint=CAPACITORS New Footprint=FTPNT_RESISTORS
+Change Component Footprint: Designator=R1 Old Footprint=RESISTORS New Footprint=FTPNT_RESISTORS
+Added Room: Name=Accelerometer
